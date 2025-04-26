@@ -67,3 +67,20 @@
   height: 100px;
   object-fit: contain;
 }
+
+.download-button {
+  display: inline-block;
+  background-color: #2196F3; /* Blue color for download */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* remove underline */
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #1976D2; /* Darker blue on hover */
+}
